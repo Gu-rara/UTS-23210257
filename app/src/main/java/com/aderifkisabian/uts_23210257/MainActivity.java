@@ -54,6 +54,11 @@ public class MainActivity extends AppCompatActivity {
                 primaList.add("Bilangan prima ke-" + j + " adalah " + i);
                 j++;
             }
+
+            if(i % 2 == 0)
+            {
+                primaList.add("Bilangan genap: " + i);
+            }
         }
         ArrayAdapter<String> arrayAdapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, primaList);
         spinPrima.setAdapter(arrayAdapter);

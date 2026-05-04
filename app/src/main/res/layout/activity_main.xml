@@ -24,7 +24,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Spinner Bilangan Prima!"
+        android:text="Spinner Bilangan Prima dan Genap!"
         android:textStyle="bold"
         android:padding="10dp"/>
 
